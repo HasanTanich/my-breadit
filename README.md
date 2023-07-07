@@ -8,7 +8,7 @@ Built with the Next.js App Router, TypeScript & Tailwind
 - Infinite scrolling for dynamically loading posts
 - Authentication using NextAuth & Google
 - Custom feed for authenticated users
-- Advanced caching using [Upstash Redis](https://upstash.com/?utm_source=Josh2)
+- Advanced caching using
 - Optimistic updates for a great user experience
 - Modern data fetching using React-Query
 - A beautiful and highly functional post editor

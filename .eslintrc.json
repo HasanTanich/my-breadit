@@ -1,7 +1,22 @@
 {
-  "extends": "next/core-web-vitals",
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking"
+  ],
   "rules": {
-    "no-console": ["warn"],
-    "no-unused-vars": ["warn"]
+    "no-console": [
+      "warn"
+    ],
+    "no-unused-vars": [
+      "warn"
+    ],
+    "@typescript-eslint/consistent-type-imports": [
+      "warn",
+      {
+        "prefer": "type-imports",
+        "fixStyle": "inline-type-imports"
+      }
+    ]
   }
 }
